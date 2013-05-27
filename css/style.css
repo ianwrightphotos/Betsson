@@ -1,0 +1,513 @@
+/* 
+    Document   : style
+    Created on : Feb 25, 2013, 10:38:04 AM
+    Author     : mika2
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html,
+body {
+    background-color: #ffffff;
+    font-family: ubuntu;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    color: #333333;
+}
+
+a 
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #0099c7;
+    text-decoration: none;    
+}
+
+
+.page {
+    max-width: 980px;
+    width: 980px;
+    margin: auto;
+}
+
+footer,
+header {
+    margin: 1em 0em;
+    height: 200px;
+    width: 100%;
+}
+
+header, footer, article, #sidebar {
+    border: 2px dashed white;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+article {
+    float: left;
+    width: 74%;
+}
+
+#sidebar {
+    width: 24%;
+    float: right;
+}
+
+#sidebar > img {
+    width: 100%;
+    height: auto;
+    margin: 1em 0;
+}
+
+.Break
+{
+    clear: both;
+}
+
+.Data1
+{
+    font-size: 0.875em;
+}
+.Data1 A
+{
+    color: #0099c7;
+}
+.Data1 A:hover
+{
+    color: #0099c7;
+}
+
+.Data2
+{
+    font-size: 2em;
+}
+
+.Data3
+{
+    color: #0099c7;    
+    font-size: 1.5em;
+}
+
+.Data4
+{
+    color: #393939;    
+    font-size: 0.75em;
+}
+.Data4 A    
+{
+    color: #008fba;    
+}
+.Data4 A:hover   
+{
+    text-decoration: underline;    
+}
+
+.LightBlue1
+{
+    background-color: #009bcb;
+}
+
+.TwitterWidgetHeader
+{
+    background-image: url('/Images/Gradients/grd-TwitterWidgetHeader.gif');
+    background-repeat: repeat-x;
+    height: 2.5em;
+    width: 100%;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;    
+}
+
+.TwitterWidgetFooter
+{
+    background-image: url('/Images/Gradients/grd-TwitterWidgetFooter.gif');
+    background-repeat: repeat-x;
+    height: 2.5em;
+    width: 100%;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;    
+}
+
+.TwitterLogo
+{
+    padding: 0.5625em 0 0.4em 0.9em;
+    float: left;    
+}
+
+.TwitterHeaderText
+{
+    float: right;
+    font-size: 0.6875em;
+    color: #ffffff;
+    padding: 0.8em 0.9em 0 0;
+    font-family: Arial;    
+}
+
+.TweetsContainer
+{
+    border-left: 1px solid #bcbcbc;
+    border-right: 1px solid #bcbcbc;
+    width: 100%;
+}
+
+.TweetContainer
+{
+    clear: both;
+    padding: 1em 1em 0 1em;
+}
+
+.TweetImage
+{
+    float: left;
+    width: 20%;    
+}
+
+.TweetText
+{
+    float: right;
+    width: 80%;
+    font-family: Arial;
+}
+
+.TweetTextLinks
+{
+    font-size: 0.9em;
+    color: #0099c7;    
+}
+
+.TweetDivider
+{
+    background-image: url('/Images/Backgrounds/bgr-TweetDivider.gif');
+    background-repeat: repeat-x;
+    height: 1px;
+    width: 100%;    
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+}
+
+.TwitterFooterText
+{
+    font-size: 0.875em;
+    font-family: Arial;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 1em;
+    float: left;    
+}
+
+.TwitterFooterBullet
+{
+    float: right;
+    padding: 0.9em;    
+}
+
+.FooterText
+{
+    text-align: center;
+    font-size: 0.6em;    
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles   
+body {
+    background-color: red;
+}
+*/
+    .MainContainer
+    {
+        margin: 0 5%;
+    }
+
+    .Logo, MenuContainer
+    {
+        text-align: center;
+        width:100%;
+    }
+    
+    .MenuItems
+    {
+        text-align: center;
+        width:100%;
+        background-color: #a2a2a2;
+        padding: 0.5em 0;
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+    }
+    
+    .Banner
+    {
+        display: none;
+    }
+    
+    h1
+    {
+        text-align: center;
+    }
+    
+    p
+    {
+        text-align: center;
+        font-size: 0.875em;
+    }
+    
+    .NewsArticleImage
+    {
+        width: 20%;
+        float: left;
+    }
+    .NewsArticleImage img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .NewsArticleText
+    {
+        width: 70%;
+        float: right;        
+    }
+    
+    .NewsArticle
+    {
+        clear: both;
+        padding: 1em 0;
+    }
+    
+    .LeftColumn
+    {
+        clear: both;        
+    }
+    
+    .TwitterWidget
+    {
+        margin-top: 1em;
+    }
+    
+    .ExtraTweets
+    {
+        display: none;
+    }    
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 321px) 
+and (max-width : 768px) {
+/* Styles */
+    .MainContainer
+    {
+        margin: 0 5%;
+    }
+
+    .Logo, MenuContainer
+    {
+        text-align: center;
+        width:100%;
+    }
+    
+    .MenuItems
+    {
+        text-align: center;
+        width:50%;
+        background-color: #a2a2a2;
+        padding: 0.5em 0;
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+        float: left;
+    }
+    
+    .Banner img
+    {
+        width: 100%;
+    }
+ 
+    h1
+    {
+        text-align: center;
+    }
+    
+    p
+    {
+        text-align: center;
+        font-size: 0.875em;
+    }
+    
+    .NewsArticleImage
+    {
+        width: 20%;
+        float: left;
+    }
+    .NewsArticleImage img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .NewsArticleText
+    {
+        width: 70%;
+        float: right;        
+    }
+    
+    .NewsArticle
+    {
+        clear: both;
+        padding: 1em 0;
+    }
+    
+    .LeftColumn
+    {
+        clear: both;        
+    }
+    
+    .TwitterWidget
+    {
+        margin-top: 1em;
+    }
+    
+    .ExtraTweets
+    {
+        display: none;
+    }
+    
+    .TweetImage
+    {
+        width: 10%;    
+    }
+
+    .TweetText
+    {
+        width: 90%;
+    }
+    
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 769px) {
+/* Styles */
+
+    .MainContainer
+    {
+        margin: 0;
+        width: 61.25em;    
+        margin-left: auto;
+        margin-right: auto;               
+    }   
+
+    
+    .Logo
+    {
+        float: left;
+    }
+    
+    .MenuContainer
+    {
+        float: right;
+        white-space: nowrap;
+        margin-top:1.7em;
+    }
+    
+    .MenuItems
+    {
+        background-color: #a2a2a2;
+        padding: 0.5em 0;
+        float: left;
+        border-left: 1px solid #ffffff;
+        border-right: 1px solid #ffffff; 
+        width:10em;    
+        text-align: center;   
+    }
+     
+     
+    .Banner img
+    {
+        width: 100%;
+    }
+ 
+    h1
+    {
+        text-align: left;
+    }
+    
+    p
+    {
+        text-align: left;
+        font-size: 0.875em;
+    }
+    
+    .NewsArticleImage
+    {
+        width: 20%;
+        float: left;
+    }
+    .NewsArticleImage img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .NewsArticleText
+    {
+        width: 70%;
+        float: right;        
+    }
+    
+    .NewsArticle
+    {
+        clear: both;
+        padding: 1em 0;
+    }
+    
+    .LeftColumn
+    {
+        float: left;  
+        width: 74%;
+    }
+    
+    .RightColumn
+    {
+        width: 24%;
+        float: right;
+    }
+    
+    .TwitterWidget
+    {
+        margin-top: 1em;
+    }
+        
+    .TweetImage
+    {
+        width: 15%;    
+    }
+
+    .TweetText
+    {
+        width: 85%;
+    }
+    
+    .TweetContainer
+    {
+        height: 28.5em;   
+        overflow: auto;     
+    }
+     
+}
