@@ -13,6 +13,10 @@
     <body>
         <div class="">
             <div class="MainContainer">
+                <div style="background-color: Yellow; color: red; text-align: center;" onclick="changeClass('leftcolumn','LeftColumn','LeftColumn1','rightcolumn','RightColumn','RightColumn1')">
+                    CHANGE TWITTER WIDGET POSITION
+                </div>
+
                 <div class="PageHeader">
                     <div class="Logo"><img src="/Images/Logos/logo-Betsson.png" width="238" height="82" alt="Betsson" title="Betsson" /></div>
                     <div class="MenuContainer">
@@ -29,7 +33,7 @@
 
                 <br />
 
-                <div class="LeftColumn">
+                <div class="LeftColumn" id="leftcolumn">
                     <h1 class="Data2">Why Bet With Us?</h1><br />
                     <p>Duis tincidunt nunc et lorem lacinia vulputate. Duis egestas, quam non eleifend feugiat, elit metus varius eros, eget faucibus lorem est feugiat dui. Sed iaculis, ipsum consectetur bibendum sollicitudin, leo eros laoreet eros, quis blandit massa magna eget nisl</p>
                     <br />
@@ -45,7 +49,7 @@
                     </div>
                     <div class="Break"></div>
                 </div>
-                <div class="RightColumn">
+                <div class="RightColumn"  id="rightcolumn">
                     <div class="TwitterWidget">
                         <div class="TwitterWidgetHeader">
                             <div class="TwitterLogo"><img src="/Images/Logos/logo-Twitter.png" width="111" height="22" alt="Twitter" title="Twitter"/></div>

@@ -489,9 +489,21 @@ and (min-width : 769px) {
         float: right;
     }
     
+    .LeftColumn1
+    {
+        float: right;  
+        width: 74%;
+    }
+    
+    .RightColumn1
+    {
+        width: 24%;
+        float: left;
+    }
+    
     .TwitterWidget
     {
-        margin-top: 1em;
+        margin-top: 0em;
     }
         
     .TweetImage

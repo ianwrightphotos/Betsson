@@ -488,6 +488,18 @@ and (min-width : 769px) {
         width: 28.5%;
         float: right;
     }
+       
+    .LeftColumn1
+    {
+        float: right;  
+        width: 70%;
+    }
+    
+    .RightColumn1
+    {
+        width: 28.5%;
+        float: left;
+    }
         
     .TweetImage
     {
