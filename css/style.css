@@ -222,6 +222,11 @@ article {
     font-size: 0.6em;    
 }
 
+.ChangeSide
+{
+    display: none;
+}
+
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
@@ -520,6 +525,11 @@ and (min-width : 769px) {
     {
         height: 28.5em;   
         overflow: auto;     
+    }
+     
+    .ChangeSide
+    {
+        display: block;
     }
      
 }
